@@ -1,0 +1,6 @@
+@DuongQuocThai_2431200206_Lab4_HostAddress = http://localhost:5123
+
+GET {{DuongQuocThai_2431200206_Lab4_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
