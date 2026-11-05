@@ -173,3 +173,4 @@ C:\Users\hahah\OneDrive\Máy tính\DuongQuocThai_2431200206_Lab4\DuongQuocThai_2
 C:\Users\hahah\OneDrive\Máy tính\DuongQuocThai_2431200206_Lab4\DuongQuocThai_2431200206_Lab4\obj\Debug\net10.0\DuongQuocThai_2431200206_Lab4.pdb
 C:\Users\hahah\OneDrive\Máy tính\DuongQuocThai_2431200206_Lab4\DuongQuocThai_2431200206_Lab4\obj\Debug\net10.0\DuongQuocThai_2431200206_Lab4.genruntimeconfig.cache
 C:\Users\hahah\OneDrive\Máy tính\DuongQuocThai_2431200206_Lab4\DuongQuocThai_2431200206_Lab4\obj\Debug\net10.0\ref\DuongQuocThai_2431200206_Lab4.dll
+C:\Users\hahah\OneDrive\Máy tính\DuongQuocThai_2431200206_Lab4\DuongQuocThai_2431200206_Lab4\obj\Debug\net10.0\DuongQuocThai_2431200206_Lab4.sourcelink.json

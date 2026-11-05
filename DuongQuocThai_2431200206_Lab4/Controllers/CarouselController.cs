@@ -6,10 +6,10 @@ namespace DuongQuocThai_2431200206_Lab4.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class CarouselController : ControllerBase
+    public class CarouselsController : ControllerBase
     {
         private LibraryDBContext _context;
-        public CarouselController(LibraryDBContext context)
+        public CarouselsController(LibraryDBContext context)
         {
             _context = context;
         }

@@ -8,7 +8,7 @@ namespace DuongQuocThai_2431200206_Lab4.Models
     public class Author
     {
         [Key]
-        public int AuthorId { get; set; }
+        public int? AuthorId { get; set; }
         //public ICollection<Book>? Books { get; set; }
         [Required(ErrorMessage = "Please enter FirstName")]
         [StringLength(100, ErrorMessage = "The length should be less than 100")]

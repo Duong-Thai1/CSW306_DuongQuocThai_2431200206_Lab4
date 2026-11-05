@@ -1,5 +1,84 @@
 [
   {
+    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.AuthorsController",
+    "Method": "GetAuthors",
+    "RelativePath": "api/Authors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.AuthorsController",
+    "Method": "addAuthor",
+    "RelativePath": "api/Authors",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "author",
+        "Type": "DuongQuocThai_2431200206_Lab4.Models.Author",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.AuthorsController",
+    "Method": "GetAuthorById",
+    "RelativePath": "api/Authors/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.AuthorsController",
+    "Method": "updateAuthor",
+    "RelativePath": "api/Authors/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newAuthor",
+        "Type": "DuongQuocThai_2431200206_Lab4.Models.Author",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.AuthorsController",
+    "Method": "DeleteAuthor",
+    "RelativePath": "api/Authors/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.BooksController",
     "Method": "GetBooks",
     "RelativePath": "api/Books",
@@ -79,9 +158,57 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.CarouselController",
+    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.BooksController",
+    "Method": "GetBooksByAuthorId",
+    "RelativePath": "api/Books/authorId/{authorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "authorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.BooksController",
+    "Method": "GetBooksByCategoryId",
+    "RelativePath": "api/Books/categoryId/{categoryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.BooksController",
+    "Method": "GetBooksByTitle",
+    "RelativePath": "api/Books/title/{title}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.CarouselsController",
     "Method": "getCarouselItems",
-    "RelativePath": "api/Carousel",
+    "RelativePath": "api/Carousels",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -89,9 +216,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.CarouselController",
+    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.CarouselsController",
     "Method": "addCarouselItem",
-    "RelativePath": "api/Carousel",
+    "RelativePath": "api/Carousels",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -105,9 +232,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.CarouselController",
+    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.CarouselsController",
     "Method": "getCarouselItemById",
-    "RelativePath": "api/Carousel/{id}",
+    "RelativePath": "api/Carousels/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -121,9 +248,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.CarouselController",
+    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.CarouselsController",
     "Method": "UpdateCarouselItem",
-    "RelativePath": "api/Carousel/{id}",
+    "RelativePath": "api/Carousels/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -142,10 +269,125 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.CarouselController",
+    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.CarouselsController",
     "Method": "DeleteCarouselItem",
-    "RelativePath": "api/Carousel/{id}",
+    "RelativePath": "api/Carousels/{id}",
     "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.CategoriesController",
+    "Method": "GetCategories",
+    "RelativePath": "api/Categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.CategoriesController",
+    "Method": "AddCategory",
+    "RelativePath": "api/Categories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "DuongQuocThai_2431200206_Lab4.Models.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.CategoriesController",
+    "Method": "UpdateCategory",
+    "RelativePath": "api/Categories/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newCategory",
+        "Type": "DuongQuocThai_2431200206_Lab4.Models.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.CategoriesController",
+    "Method": "ToggleCategoryById",
+    "RelativePath": "api/Categories/{id}/toggle",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.CategoriesController",
+    "Method": "GetActiveCategories",
+    "RelativePath": "api/Categories/filterByActive",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.CategoriesController",
+    "Method": "GetCategories",
+    "RelativePath": "api/Categories/name/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.LoansController",
+    "Method": "GetLoans",
+    "RelativePath": "api/Loans",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.LoansController",
+    "Method": "GetLoanDetails",
+    "RelativePath": "api/Loans/{id}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [

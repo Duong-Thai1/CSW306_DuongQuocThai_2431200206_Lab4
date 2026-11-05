@@ -24,6 +24,44 @@ namespace DuongQuocThai_2431200206_Lab4.Controllers
             }
             return Ok(books);
         }
+
+        [HttpGet("title/{title}")]
+        public IActionResult GetBooksByTitle(String title)
+        {
+            List<Book> books = _context.Books.ToList();
+            List<Book> foundBooks = books.FindAll(b => b.Title.Contains(title));
+            if (foundBooks.Count == 0)
+            {
+                return NotFound();
+            }
+            return Ok(foundBooks);
+        }
+
+        [HttpGet("categoryId/{categoryId}")]
+        
+        public IActionResult GetBooksByCategoryId(int categoryId)
+        {
+            List<Book> books = _context.Books.ToList();
+            List<Book> foundBooks = books.FindAll(b => b.CategoryId == categoryId);
+            if (foundBooks.Count == 0)
+            {
+                return NotFound();
+            }
+            return Ok(foundBooks);
+        }
+
+        [HttpGet("authorId/{authorId}")]
+        public IActionResult GetBooksByAuthorId(int authorId)
+        {
+            List<Book> books = _context.Books.ToList();
+            List<Book> foundBooks = books.FindAll(b => b.AuthorId == authorId);
+            if (foundBooks.Count == 0)
+            {
+                return NotFound();
+            }
+            return Ok(foundBooks);
+        }
+
         [HttpGet("{id}")]
         public IActionResult GetBook(int id)
         {

@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|c:\\users\\hahah\\onedrive\\m\u00E1y t\u00EDnh\\duongquocthai_2431200206_lab4\\duongquocthai_2431200206_lab4\\controllers\\carouselcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|solutionrelative:duongquocthai_2431200206_lab4\\controllers\\carouselcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|c:\\users\\hahah\\onedrive\\m\u00E1y t\u00EDnh\\duongquocthai_2431200206_lab4\\duongquocthai_2431200206_lab4\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|solutionrelative:duongquocthai_2431200206_lab4\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|c:\\users\\hahah\\onedrive\\m\u00E1y t\u00EDnh\\duongquocthai_2431200206_lab4\\duongquocthai_2431200206_lab4\\models\\carousel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|solutionrelative:duongquocthai_2431200206_lab4\\models\\carousel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|c:\\users\\hahah\\onedrive\\m\u00E1y t\u00EDnh\\duongquocthai_2431200206_lab4\\duongquocthai_2431200206_lab4\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|solutionrelative:duongquocthai_2431200206_lab4\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|c:\\users\\hahah\\onedrive\\m\u00E1y t\u00EDnh\\duongquocthai_2431200206_lab4\\duongquocthai_2431200206_lab4\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|solutionrelative:duongquocthai_2431200206_lab4\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|c:\\users\\hahah\\onedrive\\m\u00E1y t\u00EDnh\\duongquocthai_2431200206_lab4\\duongquocthai_2431200206_lab4\\controllers\\carouselcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|solutionrelative:duongquocthai_2431200206_lab4\\controllers\\carouselcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|c:\\users\\hahah\\onedrive\\m\u00E1y t\u00EDnh\\duongquocthai_2431200206_lab4\\duongquocthai_2431200206_lab4\\controllers\\loanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|solutionrelative:duongquocthai_2431200206_lab4\\controllers\\loanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|c:\\users\\hahah\\onedrive\\m\u00E1y t\u00EDnh\\duongquocthai_2431200206_lab4\\duongquocthai_2431200206_lab4\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|solutionrelative:duongquocthai_2431200206_lab4\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|c:\\users\\hahah\\onedrive\\m\u00E1y t\u00EDnh\\duongquocthai_2431200206_lab4\\duongquocthai_2431200206_lab4\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|solutionrelative:duongquocthai_2431200206_lab4\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|c:\\users\\hahah\\onedrive\\m\u00E1y t\u00EDnh\\duongquocthai_2431200206_lab4\\duongquocthai_2431200206_lab4\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +37,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|c:\\users\\hahah\\onedrive\\m\u00E1y t\u00EDnh\\duongquocthai_2431200206_lab4\\duongquocthai_2431200206_lab4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|solutionrelative:duongquocthai_2431200206_lab4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|c:\\users\\hahah\\onedrive\\m\u00E1y t\u00EDnh\\duongquocthai_2431200206_lab4\\duongquocthai_2431200206_lab4\\models\\carousel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|solutionrelative:duongquocthai_2431200206_lab4\\models\\carousel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|c:\\users\\hahah\\onedrive\\m\u00E1y t\u00EDnh\\duongquocthai_2431200206_lab4\\duongquocthai_2431200206_lab4\\models\\contexts\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,10 +63,6 @@
       "RelativeMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|solutionrelative:duongquocthai_2431200206_lab4\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|c:\\users\\hahah\\onedrive\\m\u00E1y t\u00EDnh\\duongquocthai_2431200206_lab4\\duongquocthai_2431200206_lab4\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|solutionrelative:duongquocthai_2431200206_lab4\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|c:\\users\\hahah\\onedrive\\m\u00E1y t\u00EDnh\\duongquocthai_2431200206_lab4\\duongquocthai_2431200206_lab4\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{79E64268-32E7-84CE-D193-4715995AFEA7}|DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj|solutionrelative:duongquocthai_2431200206_lab4\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -62,11 +78,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "DuongQuocThai_2431200206_Lab4\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "DuongQuocThai_2431200206_Lab4\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAuwFgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T07:52:29.401Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -76,40 +105,105 @@
               "RelativeDocumentMoniker": "DuongQuocThai_2431200206_Lab4\\Controllers\\BooksController.cs",
               "ToolTip": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Controllers\\BooksController.cs",
               "RelativeToolTip": "DuongQuocThai_2431200206_Lab4\\Controllers\\BooksController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAD0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-02T07:10:29.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "DuongQuocThai_2431200206_Lab4\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "DuongQuocThai_2431200206_Lab4\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T07:48:55.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoansController.cs",
+              "DocumentMoniker": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Controllers\\LoansController.cs",
+              "RelativeDocumentMoniker": "DuongQuocThai_2431200206_Lab4\\Controllers\\LoansController.cs",
+              "ToolTip": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Controllers\\LoansController.cs",
+              "RelativeToolTip": "DuongQuocThai_2431200206_Lab4\\Controllers\\LoansController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T07:29:27.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "DuongQuocThai_2431200206_Lab4\\Models\\Author.cs",
+              "ToolTip": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Models\\Author.cs",
+              "RelativeToolTip": "DuongQuocThai_2431200206_Lab4\\Models\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T05:44:23.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "CarouselController.cs",
+              "DocumentMoniker": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Controllers\\CarouselController.cs",
+              "RelativeDocumentMoniker": "DuongQuocThai_2431200206_Lab4\\Controllers\\CarouselController.cs",
+              "ToolTip": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Controllers\\CarouselController.cs",
+              "RelativeToolTip": "DuongQuocThai_2431200206_Lab4\\Controllers\\CarouselController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T07:44:26.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthorsController.cs",
+              "DocumentMoniker": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Controllers\\AuthorsController.cs",
+              "RelativeDocumentMoniker": "DuongQuocThai_2431200206_Lab4\\Controllers\\AuthorsController.cs",
+              "ToolTip": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Controllers\\AuthorsController.cs",
+              "RelativeToolTip": "DuongQuocThai_2431200206_Lab4\\Controllers\\AuthorsController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAswEUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T07:16:38.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Models\\Book.cs",
               "RelativeDocumentMoniker": "DuongQuocThai_2431200206_Lab4\\Models\\Book.cs",
               "ToolTip": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Models\\Book.cs",
               "RelativeToolTip": "DuongQuocThai_2431200206_Lab4\\Models\\Book.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAkwCIAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAA5wCIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-02T05:18:36.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\appsettings.json",
               "RelativeDocumentMoniker": "DuongQuocThai_2431200206_Lab4\\appsettings.json",
               "ToolTip": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\appsettings.json",
               "RelativeToolTip": "DuongQuocThai_2431200206_Lab4\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-11-02T05:09:13.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Carousel.cs",
               "DocumentMoniker": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Models\\Carousel.cs",
               "RelativeDocumentMoniker": "DuongQuocThai_2431200206_Lab4\\Models\\Carousel.cs",
@@ -117,12 +211,11 @@
               "RelativeToolTip": "DuongQuocThai_2431200206_Lab4\\Models\\Carousel.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T08:32:14.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T08:32:14.387Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "LibraryDBContext.cs",
               "DocumentMoniker": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Models\\Contexts\\LibraryDBContext.cs",
               "RelativeDocumentMoniker": "DuongQuocThai_2431200206_Lab4\\Models\\Contexts\\LibraryDBContext.cs",
@@ -130,12 +223,11 @@
               "RelativeToolTip": "DuongQuocThai_2431200206_Lab4\\Models\\Contexts\\LibraryDBContext.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAQwBEAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T05:17:04.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T05:17:04.74Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Program.cs",
               "RelativeDocumentMoniker": "DuongQuocThai_2431200206_Lab4\\Program.cs",
@@ -143,25 +235,11 @@
               "RelativeToolTip": "DuongQuocThai_2431200206_Lab4\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T05:05:15.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T05:05:15.135Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CarouselController.cs",
-              "DocumentMoniker": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Controllers\\CarouselController.cs",
-              "RelativeDocumentMoniker": "DuongQuocThai_2431200206_Lab4\\Controllers\\CarouselController.cs",
-              "ToolTip": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Controllers\\CarouselController.cs",
-              "RelativeToolTip": "DuongQuocThai_2431200206_Lab4\\Controllers\\CarouselController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAkwCcAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T07:44:26.568Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Models\\User.cs",
               "RelativeDocumentMoniker": "DuongQuocThai_2431200206_Lab4\\Models\\User.cs",
@@ -173,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Loan.cs",
               "DocumentMoniker": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Models\\Loan.cs",
               "RelativeDocumentMoniker": "DuongQuocThai_2431200206_Lab4\\Models\\Loan.cs",
@@ -185,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Models\\Category.cs",
               "RelativeDocumentMoniker": "DuongQuocThai_2431200206_Lab4\\Models\\Category.cs",
@@ -197,19 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Author.cs",
-              "DocumentMoniker": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Models\\Author.cs",
-              "RelativeDocumentMoniker": "DuongQuocThai_2431200206_Lab4\\Models\\Author.cs",
-              "ToolTip": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Models\\Author.cs",
-              "RelativeToolTip": "DuongQuocThai_2431200206_Lab4\\Models\\Author.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAsAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T05:44:23.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "DuongQuocThai_2431200206_Lab4\\Properties\\launchSettings.json",
@@ -221,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\hahah\\OneDrive\\M\u00E1y t\u00EDnh\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "DuongQuocThai_2431200206_Lab4\\Controllers\\WeatherForecastController.cs",
