@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "VNnSAaFQ9w0=",
+  "dgSpecHash": "7CH5jsJavK8=",
   "success": true,
   "projectFilePath": "C:\\Users\\hahah\\OneDrive\\Máy tính\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4\\DuongQuocThai_2431200206_Lab4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hahah\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\hahah\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",
+    "C:\\Users\\hahah\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
     "C:\\Users\\hahah\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.9\\microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
     "C:\\Users\\hahah\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "C:\\Users\\hahah\\.nuget\\packages\\microsoft.data.sqlclient\\6.1.7\\microsoft.data.sqlclient.6.1.7.nupkg.sha512",

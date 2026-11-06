@@ -15,7 +15,7 @@ namespace DuongQuocThai_2431200206_Lab4.Controllers
             _context = context;
         }
         [HttpGet]
-        public IActionResult GetBooks()
+        public async Task<IActionResult> GetBooks()
         {
             List<Book> books = _context.Books.ToList();
             if (books.Count == 0)
@@ -25,8 +25,8 @@ namespace DuongQuocThai_2431200206_Lab4.Controllers
             return Ok(books);
         }
 
-        [HttpGet("title/{title}")]
-        public IActionResult GetBooksByTitle(String title)
+        [HttpGet("filterByTitle/{title}")]
+        public async Task<IActionResult> GetBooksByTitle(String title)
         {
             List<Book> books = _context.Books.ToList();
             List<Book> foundBooks = books.FindAll(b => b.Title.Contains(title));
@@ -37,9 +37,9 @@ namespace DuongQuocThai_2431200206_Lab4.Controllers
             return Ok(foundBooks);
         }
 
-        [HttpGet("categoryId/{categoryId}")]
+        [HttpGet("filterByCategoryId/{categoryId}")]
         
-        public IActionResult GetBooksByCategoryId(int categoryId)
+        public async Task<IActionResult> GetBooksByCategoryId(int categoryId)
         {
             List<Book> books = _context.Books.ToList();
             List<Book> foundBooks = books.FindAll(b => b.CategoryId == categoryId);
@@ -50,8 +50,8 @@ namespace DuongQuocThai_2431200206_Lab4.Controllers
             return Ok(foundBooks);
         }
 
-        [HttpGet("authorId/{authorId}")]
-        public IActionResult GetBooksByAuthorId(int authorId)
+        [HttpGet("filterByAuthorId/{authorId}")]
+        public async Task<IActionResult> GetBooksByAuthorId(int authorId)
         {
             List<Book> books = _context.Books.ToList();
             List<Book> foundBooks = books.FindAll(b => b.AuthorId == authorId);
@@ -63,7 +63,7 @@ namespace DuongQuocThai_2431200206_Lab4.Controllers
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetBook(int id)
+        public async Task<IActionResult> GetBook(int id)
         {
             var books = _context.Books.ToList();
             var book = books.Find(b => b.BookId == id);
@@ -73,6 +73,19 @@ namespace DuongQuocThai_2431200206_Lab4.Controllers
             }
             return Ok(book);
         }
+
+        [HttpGet("deleted")]
+        public async Task<IActionResult> getDeletedBooks()
+        {
+            var books = _context.Books.ToList();
+            var deletedBooks = books.FindAll(b => !b.IsActive);
+            if (deletedBooks.Count == 0)
+            {
+                return NotFound();
+            }
+            return Ok(deletedBooks);
+        }
+
         [HttpPost]
         public async Task<IActionResult> AddBook([FromBody] Book book) 
         {
@@ -107,8 +120,23 @@ namespace DuongQuocThai_2431200206_Lab4.Controllers
             await _context.SaveChangesAsync();
             return Ok(book);
         }
+
+        [HttpPatch("{id}/restore")]
+        public async Task<IActionResult> RestoreBook(int id)
+        {
+            var books = _context.Books.ToList();
+            var book = books.Find(b => b.BookId == id);
+            if (book == null)
+            {
+                return NotFound();
+            }
+            book.IsActive = true;
+            await _context.SaveChangesAsync();
+            return Ok(book);
+        }
+
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteBook(int id)
+        public async Task<IActionResult> SoftDeleteBook(int id)
         {
             var books = _context.Books.ToList();
             var book = books.Find(b => b.BookId == id);
@@ -117,6 +145,21 @@ namespace DuongQuocThai_2431200206_Lab4.Controllers
                 return NotFound();
             }
             book.IsActive = false;
+            await _context.SaveChangesAsync();
+            return NoContent();
+        }
+
+        [HttpDelete("{id}/hard")]
+        public async Task<IActionResult> HardDeleteBook(int id)
+        {
+            var books = _context.Books.ToList();
+            var book = books.Find(b => b.BookId == id);
+            if (book == null)
+            {
+                return NotFound();
+            }
+            books.Remove(book);
+            // TODO: delete associated files PDF or image from server
             await _context.SaveChangesAsync();
             return NoContent();
         }
