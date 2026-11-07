@@ -11,7 +11,7 @@
   },
   {
     "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.AuthorsController",
-    "Method": "addAuthor",
+    "Method": "AddAuthor",
     "RelativePath": "api/Authors",
     "HttpMethod": "POST",
     "IsController": true,
@@ -43,7 +43,7 @@
   },
   {
     "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.AuthorsController",
-    "Method": "updateAuthor",
+    "Method": "UpdateAuthor",
     "RelativePath": "api/Authors/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -74,6 +74,27 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.AuthorsController",
+    "Method": "UploadAvatar",
+    "RelativePath": "api/Authors/uploadAvatar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -175,9 +196,9 @@
   },
   {
     "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.BooksController",
-    "Method": "RestoreBook",
-    "RelativePath": "api/Books/{id}/restore",
-    "HttpMethod": "PATCH",
+    "Method": "ReadBook",
+    "RelativePath": "api/Books/{id}/read",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -191,30 +212,14 @@
   },
   {
     "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.BooksController",
-    "Method": "GetBooksByAuthorId",
-    "RelativePath": "api/Books/authorId/{authorId}",
-    "HttpMethod": "GET",
+    "Method": "RestoreBook",
+    "RelativePath": "api/Books/{id}/restore",
+    "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "authorId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.BooksController",
-    "Method": "GetBooksByCategoryId",
-    "RelativePath": "api/Books/categoryId/{categoryId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "categoryId",
+        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
       }
@@ -233,8 +238,40 @@
   },
   {
     "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.BooksController",
+    "Method": "GetBooksByAuthorId",
+    "RelativePath": "api/Books/filterByAuthorId/{authorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "authorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.BooksController",
+    "Method": "GetBooksByCategoryId",
+    "RelativePath": "api/Books/filterByCategoryId/{categoryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.BooksController",
     "Method": "GetBooksByTitle",
-    "RelativePath": "api/Books/title/{title}",
+    "RelativePath": "api/Books/filterByTitle/{title}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -249,7 +286,7 @@
   },
   {
     "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.CarouselsController",
-    "Method": "getCarouselItems",
+    "Method": "GetCarouselItems",
     "RelativePath": "api/Carousels",
     "HttpMethod": "GET",
     "IsController": true,
@@ -259,7 +296,7 @@
   },
   {
     "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.CarouselsController",
-    "Method": "addCarouselItem",
+    "Method": "AddCarouselItem",
     "RelativePath": "api/Carousels",
     "HttpMethod": "POST",
     "IsController": true,
@@ -275,7 +312,7 @@
   },
   {
     "ContainingType": "DuongQuocThai_2431200206_Lab4.Controllers.CarouselsController",
-    "Method": "getCarouselItemById",
+    "Method": "GetCarouselItemById",
     "RelativePath": "api/Carousels/{id}",
     "HttpMethod": "GET",
     "IsController": true,

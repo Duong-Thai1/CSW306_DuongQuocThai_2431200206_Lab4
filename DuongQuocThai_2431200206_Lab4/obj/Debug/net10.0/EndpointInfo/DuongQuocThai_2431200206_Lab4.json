@@ -130,6 +130,44 @@
         }
       }
     },
+    "/api/Authors/uploadAvatar": {
+      "post": {
+        "tags": [
+          "Authors"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Name": {
+                    "type": "string"
+                  },
+                  "ImageFile": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "Name": {
+                  "style": "form"
+                },
+                "ImageFile": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Books": {
       "get": {
         "tags": [
@@ -171,7 +209,7 @@
         }
       }
     },
-    "/api/Books/title/{title}": {
+    "/api/Books/filterByTitle/{title}": {
       "get": {
         "tags": [
           "Books"
@@ -193,7 +231,7 @@
         }
       }
     },
-    "/api/Books/categoryId/{categoryId}": {
+    "/api/Books/filterByCategoryId/{categoryId}": {
       "get": {
         "tags": [
           "Books"
@@ -216,7 +254,7 @@
         }
       }
     },
-    "/api/Books/authorId/{authorId}": {
+    "/api/Books/filterByAuthorId/{authorId}": {
       "get": {
         "tags": [
           "Books"
@@ -302,6 +340,29 @@
         }
       },
       "delete": {
+        "tags": [
+          "Books"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Books/{id}/read": {
+      "get": {
         "tags": [
           "Books"
         ],

@@ -14,7 +14,7 @@ namespace DuongQuocThai_2431200206_Lab4.Controllers
             _context = context;
         }
         [HttpGet]
-        public async Task<IActionResult> getCarouselItems()
+        public async Task<IActionResult> GetCarouselItems()
         {
             List<Carousel> items = _context.Carousels.ToList();
             if (items.Count == 0)
@@ -25,7 +25,7 @@ namespace DuongQuocThai_2431200206_Lab4.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> getCarouselItemById(int id)
+        public async Task<IActionResult> GetCarouselItemById(int id)
         {
             List<Carousel> items = _context.Carousels.ToList();
             Carousel item = items.Find(i => i.CarouselId == id);
@@ -37,7 +37,7 @@ namespace DuongQuocThai_2431200206_Lab4.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> addCarouselItem( [FromBody] Carousel item)
+        public async Task<IActionResult> AddCarouselItem( [FromBody] Carousel item)
         {
             item.CreatedDate = DateTime.Now;
             item.UpdatedDate = DateTime.Now;
@@ -79,12 +79,12 @@ namespace DuongQuocThai_2431200206_Lab4.Controllers
             {
                 return BadRequest();
             }
-            items.Remove(item);
+            _context.Carousels.Remove(item);
             await _context.SaveChangesAsync();
             Carousel deletedItem = _context.Carousels.ToList().Find(i => i.CarouselId == id);
             if (deletedItem == null)
             {
-                System.IO.File.Delete(item.ImageUrl);
+                System.IO.File.Delete($"wwwroot\\carousel_images\\{item.ImageUrl}");
             }
             return NoContent();
         }

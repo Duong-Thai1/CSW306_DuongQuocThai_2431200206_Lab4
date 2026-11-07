@@ -1,2 +1,3 @@
-wwwroot\carousel_images\image1.png
 wwwroot\carousel_images\image2.png
+wwwroot\book_pdfs\test.pdf
+wwwroot\carousel_images\image1.png

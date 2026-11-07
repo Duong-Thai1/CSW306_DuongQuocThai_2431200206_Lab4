@@ -2,6 +2,7 @@
 using DuongQuocThai_2431200206_Lab4.Models.Contexts;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace DuongQuocThai_2431200206_Lab4.Controllers
 {
@@ -72,6 +73,25 @@ namespace DuongQuocThai_2431200206_Lab4.Controllers
                 return NotFound();
             }
             return Ok(book);
+        }
+
+        [HttpGet("{id}/read")]
+        public async Task<IActionResult> ReadBook(int id)
+        {
+            var books = _context.Books.ToList();
+            var book = books.Find(b => b.BookId == id);
+            if (book == null)
+            {
+                return NotFound();
+            }
+            if (book.Pdf == null)
+            {
+                return NoContent();
+            }
+            return Ok(new
+            {
+                Url = $"book_pdfs/{book.Pdf}",
+            });
         }
 
         [HttpGet("deleted")]
@@ -159,8 +179,19 @@ namespace DuongQuocThai_2431200206_Lab4.Controllers
                 return NotFound();
             }
             books.Remove(book);
-            // TODO: delete associated files PDF or image from server
             await _context.SaveChangesAsync();
+            var deletedBook = books.Find(b => b.BookId == id);
+            if (deletedBook == null)
+            {
+                if (book.Pdf != null)
+                {
+                    System.IO.File.Delete($"wroot\\book_pdfs\\{book.Pdf}");
+                }
+                if (book.Avatar != null)
+                {
+                    System.IO.File.Delete($"wroot\\carousel_images\\{book.Avatar}");
+                }
+            }
             return NoContent();
         }
     }

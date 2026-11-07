@@ -1,4 +1,5 @@
-﻿using DuongQuocThai_2431200206_Lab4.Models;
+﻿using DuongQuocThai_2431200206_Lab4.Dtos;
+using DuongQuocThai_2431200206_Lab4.Models;
 using DuongQuocThai_2431200206_Lab4.Models.Contexts;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -38,18 +39,41 @@ namespace DuongQuocThai_2431200206_Lab4.Controllers
             return Ok(author);
         }
 
-        [HttpPost]
-        public async Task<IActionResult> addAuthor([FromBody] Author author)
+        [HttpPost("uploadAvatar")]
+        public async Task<IActionResult> UploadAvatar([FromForm] AuthorSubmissionDto submission)
         {
+            var imageFile = submission.ImageFile;
+            if (imageFile == null || imageFile.Length == 0)
+            {
+                return BadRequest();
+            }
+            var fileStream = new FileStream($"wwwroot\\carousel_images\\{submission.Name}", FileMode.Create);
+            await imageFile.CopyToAsync(fileStream);
+            return Ok();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddAuthor([FromBody] Author author)
+        {
+          
             author.AuthorId = null;
             author.CreatedDate = DateTime.Now;
+            // Check for cases where author get to choose a list of default avatars
+            if (author.Avatar != null)
+            {
+                var avatar = _context.Carousels.ToList().Find(item => item.ImageUrl == author.Avatar);
+                if (avatar == null)
+                {
+                    return BadRequest();
+                }
+            }
             _context.Authors.Add(author);
             await _context.SaveChangesAsync();
             return Ok(author);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> updateAuthor(int id, [FromBody] Author newAuthor)
+        public async Task<IActionResult> UpdateAuthor(int id, [FromBody] Author newAuthor)
         {
             var authors = _context.Authors.ToList();
             var author = authors.Find(a => a.AuthorId == id);
